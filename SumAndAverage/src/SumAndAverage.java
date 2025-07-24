@@ -13,11 +13,9 @@ public class SumAndAverage {
 
         double price[] = new double[5];
         
-        int cnt = 0;
 
         for (int i = 0; i < price.length; i++) {
-            cnt ++;
-            System.out.print("Enter price " + cnt + ": " );
+            System.out.print("Enter price " + (i + 1) + ": " );
             price[i] = input.nextDouble();
         }
         
