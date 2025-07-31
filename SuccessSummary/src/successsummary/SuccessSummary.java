@@ -51,7 +51,7 @@ public class SuccessSummary {
         
         // avg
         avg = sum / marks.length;
-        System.out.println("Average mark: " + avg);
+        System.out.printf("Average mark: " + "%.2f%n", avg);
         
         // number of students that passed/failed.
         System.out.println("Number of students that failed: " + failed_cnt);
