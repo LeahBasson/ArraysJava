@@ -16,9 +16,9 @@ public class BodyMassIndex {
             bmi = weight[i] / Math.pow(height[i], 2);
 
             System.out.println("person " + (i + 1));
-            System.out.println("height(m): " + height[i]);
-            System.out.println("weight(kg): " + weight[i]);
-            System.out.println("bmi: " + bmi);
+            System.out.printf("height(m): " + "%.2f%n", height[i]);
+            System.out.printf("weight(kg): " + "%.2f%n", weight[i]);
+            System.out.printf("bmi: " + "%.2f%n", bmi);
             System.out.print("result: ");
 
             if (bmi <= 18.4) {
