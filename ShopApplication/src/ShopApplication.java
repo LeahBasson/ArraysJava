@@ -35,29 +35,21 @@ public class ShopApplication {
         System.out.println("What item are you looking for? ");
         String item_lookup = scn.next();
         
-        boolean found = false;
+        boolean found = false; // we dont know if the item is there so we set it to.
         
         for(int i = 0; i < item_names.length; i++){
             if(item_names[i].equalsIgnoreCase(item_lookup)){
                 System.out.println("The price of item " + item_names[i] + " is R" + item_prices[i]);
-                found = true;
+                found = true; // if we find it we set it to true.
                 break;
             }
         }
         
         if (!found){
+            // then if not true this displays.
             System.out.println("Item " + item_lookup + " is not stocked in the shop.");
         }
-
-//        for (int i = 0; i < item_names.length; i++) {
-//
-//            if (item_lookup.equals(item_names[i])) {
-//                System.out.println("The price of item " + item_lookup + " is R" + item_prices[i]);
-//            }
-//
-//        }
         
-
     } // end of main
 
 } // end of class
