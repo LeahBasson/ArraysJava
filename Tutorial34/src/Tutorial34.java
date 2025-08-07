@@ -14,7 +14,7 @@ public class Tutorial34 {
         String[] surnames = {"Malan", "Jones", "West", "Nadile", "King", "Bester", "Peters", "Adams"};
         double[] amounts = {50000, 80000, 45000, 42000, 61000, 30000, 49000, 25000};
 
-        System.out.println("Fundraiser \t\t Amount");
+        System.out.println("Fundraiser \t\tAmount");
 
         for (int i = 0; i < surnames.length; i++) {
             System.out.println(surnames[i] + "\t\t\t" + amounts[i]);
