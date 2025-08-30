@@ -1,11 +1,11 @@
 
-package numbersenter;
+package arrayInput;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
 
-public class NumbersEnter {
+public class arrayInput {
 
     
     public static void main(String[] args) {
