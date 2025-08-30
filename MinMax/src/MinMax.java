@@ -7,14 +7,22 @@ public class MinMax {
 
         int minNum = 0;
         int maxNum = 0;
+        int sum = 0;
+        
+        // calculating sum
+        for(int i = 0; i < numbers.length; i++){
+            sum += numbers[i];
+        }
+        System.out.println("Total: " + sum);
 
+        // finding the max num
         for (int i = 1; i < numbers.length; i++) {
             if (numbers[i] > numbers[maxNum]) {
                 maxNum = i;
-                System.out.println(numbers[maxNum]);
             }
         }
-
+        
+        // finding the min num
         for (int i = 1; i < numbers.length; i++) {
             if(numbers[i] < numbers[minNum]){
                 minNum = i;
